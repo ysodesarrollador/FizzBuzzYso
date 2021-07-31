@@ -2,3 +2,18 @@ ion-button{
     text-align: center;
     text-transform: none;
 }
+ion-input{
+    width: 40%;
+}
+.itemList{
+    margin-left: 65%;
+    --background: transparent ;  
+    .lbl{
+        text-align: left;
+        
+    }  
+}
+.inputItem{
+    border-radius: 12px;
+    --background:rgb(198, 220, 224);
+}

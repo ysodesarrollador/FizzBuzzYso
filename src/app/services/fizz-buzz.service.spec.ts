@@ -1,4 +1,5 @@
 import { TestBed } from '@angular/core/testing';
+import { LoadingController } from '@ionic/angular';
 import { FizzBuzzService } from './fizz-buzz.service';
 
 
@@ -13,6 +14,5 @@ describe('FizzBuzzService', () => {
     expect(Array.isArray(fbList)).toBeFalsy();
     const service: FizzBuzzService = TestBed.get(FizzBuzzService);
     expect(service).toBeTruthy();
-  });
-  
+  });  
 });
